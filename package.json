@@ -1,0 +1,29 @@
+{
+  "name": "journalsite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^5.1.2",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.5.0",
+    "vite": "^7.3.0"
+  }
+}

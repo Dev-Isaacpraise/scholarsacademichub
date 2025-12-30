@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --brand: #0f172a; /* slate-900 */
+  --accent: #06b6d4; /* cyan-500 */
+}
+
+body{
+  font-family: 'Inter', 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  color: var(--brand);
+}
+
+/* Headings and typographic scale */
+h1{font-family: 'Poppins', system-ui, sans-serif; font-weight:700; letter-spacing: -0.02em}
+h2{font-family: 'Poppins', system-ui, sans-serif; font-weight:600}
+
+/* Utility: subtle card */
+.card { @apply bg-white rounded-lg shadow p-4 }
+
